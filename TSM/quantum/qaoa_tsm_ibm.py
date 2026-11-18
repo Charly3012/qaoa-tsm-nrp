@@ -44,7 +44,7 @@ def _job_quantum_seconds(job, retries=12, wait=5.0, sleep=None):
 
     `job.usage()` devolvía 0.0 en qiskit-ibm-runtime 0.39; `metrics()` sí expone
     el campo, pero IBM lo llena unos segundos DESPUÉS de que `job.result()`
-    regresa (deuda técnica #8: los 7 jobs de la Fase 4 quedaron en 0.0). Por eso
+    regresa (en los trabajos de E3 quedó en 0.0). Por eso
     se reintenta hasta `retries` veces, esperando `wait` segundos, mientras el
     uso no esté completo (`usage.status != 'complete'` o quantum_seconds en 0).
     Devuelve None si no está disponible.

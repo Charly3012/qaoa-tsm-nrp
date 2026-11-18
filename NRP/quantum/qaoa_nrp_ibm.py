@@ -36,7 +36,7 @@ def _job_quantum_seconds(job, retries=12, wait=5.0, sleep=None):
     """Segundos de QPU facturados al job (misma lógica que qaoa_tsm_ibm.py).
 
     IBM llena job.metrics()['usage'] unos segundos después de job.result()
-    (deuda técnica #8), así que se reintenta mientras el uso no esté completo.
+    así que se reintenta mientras el uso no esté completo.
     """
     sleep = sleep or time.sleep
     last = None

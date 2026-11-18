@@ -94,28 +94,26 @@ def build_qubo(qp, penalty=None):
     return QuadraticProgramToQubo(penalty=penalty).convert(qp)
 
 
-# Valores CONGELADOS el 2026-11-17 para la ronda confirmatoria: lambda1 = 0.1,
-# lambda2 = 0.01 y P = DEFAULT_PENALTY_LOGIC = 2 (más abajo).
+# Valores de lambda1 y lambda2 del experimento confirmatorio, con
+# P = DEFAULT_PENALTY_LOGIC = 2 (más abajo).
 # Calibración: scripts/sweep_lambda.py --problem nrp (P = 2), resultados en
 # report/fase4/nrp/sweep_lambda*_P2*.csv; 7 instancias de calibración y 12 de
-# evaluación. A diferencia de TSM, NINGÚN par hace que el argmin coincida con el
+# evaluación. A diferencia de TSM, ningún par hace que el argmin coincida con el
 # óptimo del ILP en todas las instancias (mochila: la parábola premia dejar
 # presupuesto sin usar).
-# Decisión (2026-11-17): se CONSERVAN los lambdas de la exploración, (0.1, 0.01),
-# para que la única diferencia entre E3 y la ronda confirmatoria en el NRP sea P.
+# Se conservan los valores del experimento E3, (0.1, 0.01), para que la única
+# diferencia entre E3 y el experimento confirmatorio en el NRP sea P.
 # Con P = 2 ese par da: argmin óptimo en 6/7 de calibración y 9/12 de evaluación,
 # argmin factible en 12/12 de evaluación y óptimo entre los 15 estados de menor
 # energía en las 19 instancias (rango <= 3 en calibración y <= 14 en evaluación).
-# OJO: (0.1, 0.01) NO es el par que elige el criterio de respaldo documentado
-# (menor rango máximo del óptimo). Con P = 2 ese criterio prefiere (0.05, 0.005)
-# o (0.075, 0.008), ambos con rango máximo 6; (0.1, 0.01) queda quinto. No se
-# adoptaron para no cambiar dos elementos de la codificación a la vez.
+# El criterio de menor rango máximo del óptimo preferiría (0.05, 0.005) o
+# (0.075, 0.008), ambos con rango máximo 6; no se adoptaron para no cambiar dos
+# elementos de la codificación a la vez.
 # Las métricas de QAOA se calculan sobre los óptimos reales (p_opt) y la
 # selección final filtra factibilidad, así que la inexactitud se mide, no se oculta.
-# Historia: la calibración original (2026-10-31, report/fase4/nrp/sweep_lambda.csv
-# y sweep_lambda_fino.csv) usó P = lambda1 + lambda2 y eligió el mismo par, con
-# argmin óptimo en 4/7 y 2/12, argmin factible en 2/12 y rango <= 27. Con ese P se
-# corrió el experimento exploratorio E3.
+# En E3 se usó P = lambda1 + lambda2 con el mismo par (report/fase4/nrp/sweep_lambda.csv
+# y sweep_lambda_fino.csv): argmin óptimo en 4/7 y 2/12, argmin factible en 2/12 y
+# rango <= 27.
 DEFAULT_LAMBDA1 = 0.1
 DEFAULT_LAMBDA2 = 0.01
 
@@ -125,7 +123,7 @@ DEFAULT_LAMBDA2 = 0.01
 # renunciar a una característica.
 # El experimento exploratorio E3 usó P = lambda1 + lambda2 = 0.11 (< 1): el
 # estado de menor energía violaba dependencias en la mayoría de las instancias
-# (deuda técnica #7). Ese comportamiento se conserva solo para reproducir E3,
+# Ese comportamiento se conserva solo para reproducir E3,
 # con penalty_logic=LEGACY_PENALTY_LOGIC.
 DEFAULT_PENALTY_LOGIC = 2.0
 LEGACY_PENALTY_LOGIC = "lambda"
