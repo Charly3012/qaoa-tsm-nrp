@@ -1,0 +1,31 @@
+Feature,Nombre,Costo,Valor
+F0,Migración a Microservicios (Trampa),100,300
+F1,Refactorizar Monolito (Deuda Técnica),150,10
+F2,Módulo Core Ventas,100,200
+F3,Módulo Core Inventario,100,200
+F4,Módulo Core Logística,100,200
+F5,Módulo Core Finanzas,100,200
+F6,Módulo Core RRHH,100,200
+F7,Pasarela Stripe V2,200,350
+F8,Pasarela PayPal V2,200,350
+F9,Dashboard Nivel 1,20,30
+F10,Dashboard Nivel 2,20,30
+F11,Dashboard Nivel 3,20,30
+F12,Exportación Analítica,20,30
+F13,Alertas Automáticas,20,30
+F14,App Compañera Ligera,50,90
+F15,Mejora Menor de UI 15,10,10
+F16,Mejora Menor de UI 16,15,14
+F17,Mejora Menor de UI 17,20,18
+F18,Mejora Menor de UI 18,25,22
+F19,Mejora Menor de UI 19,30,26
+F20,Mejora Menor de UI 20,10,10
+F21,Mejora Menor de UI 21,15,14
+F22,Mejora Menor de UI 22,20,18
+F23,Mejora Menor de UI 23,25,22
+F24,Mejora Menor de UI 24,30,26
+F25,Mejora Menor de UI 25,10,10
+F26,Mejora Menor de UI 26,15,14
+F27,Mejora Menor de UI 27,20,18
+F28,Mejora Menor de UI 28,25,22
+F29,Mejora Menor de UI 29,30,26

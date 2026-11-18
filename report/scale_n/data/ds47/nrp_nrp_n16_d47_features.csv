@@ -1,0 +1,17 @@
+,Feature,Nombre,Costo,Valor
+F0,F0,Autenticacion SSO,5,68
+F1,F1,Panel de Analiticas,29,20
+F2,F2,Motor de Reportes,7,13
+F3,F3,Exportacion CSV,11,35
+F4,F4,Notificaciones Push,24,57
+F5,F5,Busqueda Full-Text,15,84
+F6,F6,API Publica REST,24,82
+F7,F7,Modo Oscuro,7,84
+F8,F8,Internacionalizacion i18n,28,58
+F9,F9,Cache Distribuida,23,88
+F10,F10,Cola de Trabajos Async,5,45
+F11,F11,Auditoria de Accesos,15,28
+F12,F12,Integracion de Pagos,32,51
+F13,F13,Importador de Datos,37,82
+F14,F14,Roles y Permisos,5,54
+F15,F15,Backup Automatico,28,29

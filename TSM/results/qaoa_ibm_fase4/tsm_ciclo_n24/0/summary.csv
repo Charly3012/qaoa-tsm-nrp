@@ -1,0 +1,2 @@
+method,dataset,repeat,selected_case_num,total_time,covered_reqs,total_reqs,feasible,objective,execution_time,optimal
+qaoa_ibm_fase4,tsm_ciclo_n24,0,13,16.99,24,24,True,13.01699,4.000012268079445e-07,no

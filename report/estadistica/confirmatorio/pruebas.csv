@@ -1,0 +1,7 @@
+hipotesis,pi,familia,n,prueba,estadistico,p,p_holm,efecto,efecto_valor,umbral_efecto,decision
+H1,PI3,tsm_aleatoria,40,Wilcoxon 1 muestra (>0),820.0,9.094947017729282e-13,5.4569682106375694e-12,"mediana A = 54.5 [IC95 15.1, 82.8]; signos 40/40 (p = 9.09e-13)",54.48468359610787,,Rechaza H0
+H2,PI3,tsm_aleatoria,40,Wilcoxon pareado (F+C vs F),746.0,3.940094757126644e-07,1.5760379028506577e-06,FS = 0.93; mediana de la razon de A = 2.1,0.925,0.64,Rechaza H0
+H3,PI3,tsm_aleatoria,40,Wilcoxon pareado (RIC F+C+I < RIC F+C),11.0,5.002220859751105e-11,2.5011104298755527e-10,FS = 0.93; mediana de RIC: 0.00563 (F+C+I) frente a 1.03 (F+C),0.925,,Rechaza H0
+H4,PI1,tsm_aleatoria,40,McNemar exacto,21.0,4.76837158203125e-07,1.5760379028506577e-06,"b = 21 (QAOA si, azar no), c = 0; QAOA 40/40, azar 19/40",21.0,,Rechaza H0
+H6,PI3,nrp,35,Wilcoxon 1 muestra (>0),172.0,0.9912963702809066,0.9912963702809066,"mediana A = 0.828 [IC95 0.642, 1.03]; signos 13/35 (p = 0.955)",0.8278682823145206,,No rechaza H0
+H7,PI3,tsm_aleatoria,15,Wilcoxon pareado (F vs Base),105.0,0.004180908203125,0.00836181640625,FS = 0.93; mediana de la razon de A = 3.45,0.9333333333333333,0.64,Rechaza H0

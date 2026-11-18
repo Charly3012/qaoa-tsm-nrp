@@ -1,0 +1,10 @@
+Feature,Nombre,Costo,Valor
+F3,Módulo Core Inventario,100,200
+F4,Módulo Core Logística,100,200
+F5,Módulo Core Finanzas,100,200
+F6,Módulo Core RRHH,100,200
+F9,Dashboard Nivel 1,20,30
+F10,Dashboard Nivel 2,20,30
+F15,Mejora Menor de UI 15,10,10
+F19,Mejora Menor de UI 19,30,26
+F27,Mejora Menor de UI 27,20,18

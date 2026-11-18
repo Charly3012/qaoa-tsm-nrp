@@ -1,0 +1,2 @@
+method,dataset,repeat,selected_case_num,total_time,covered_reqs,total_reqs,feasible,objective,execution_time,optimal,status
+sa,toy,0,2,1.6,6,6,True,2.0016,2.8793470999225974,unknown,

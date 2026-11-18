@@ -1,0 +1,2 @@
+method,dataset,repeat,budget,selected_case_num,total_cost,total_value,budget_used,feasible,objective,execution_time,optimal,status
+greedy,toy2,0,500,5,500.0,800.0,500.00/500,True,-800.0,0.0003502999898046255,unknown,

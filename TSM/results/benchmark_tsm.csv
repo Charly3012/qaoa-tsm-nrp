@@ -1,0 +1,13 @@
+method,dataset,repeat,selected_case_num,total_time,covered_reqs,total_reqs,feasible,objective,execution_time,optimal,status
+ilp,toy,0,2,1.6,6,6,True,2.0016,0.0355912999948486,yes,Optimal
+greedy,toy,0,3,2.0,6,6,True,3.002,9.870005305856466e-05,unknown,
+sa,toy,0,2,1.6,6,6,True,2.0016,2.8793470999225974,unknown,
+qaoa_sim,toy,0,2,1.6,6,6,True,2.0016,0.1164118000306189,yes,
+ilp,toy2,0,3,4.5,12,12,True,3.0045,0.0271217999979853,yes,Optimal
+greedy,toy2,0,4,3.5,12,12,True,4.0035,0.000187600031495,unknown,
+sa,toy2,0,3,4.5,12,12,True,3.0045,3.0297218000050634,unknown,
+qaoa_sim,toy2,0,3,4.5,12,12,True,3.0045,7.898631199961528,yes,
+ilp,demo,0,6,9.42,12,12,True,6.00942,0.0252317000413313,yes,Optimal
+greedy,demo,0,7,8.399999999999999,12,12,True,7.0084,0.0002953000366687,unknown,
+sa,demo,0,6,7.48,12,12,True,6.00748,3.234583499957808,unknown,
+qaoa_sim,demo,0,6,7.48,12,12,True,6.00748,0.1948452999349683,yes,

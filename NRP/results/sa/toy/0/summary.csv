@@ -1,0 +1,2 @@
+method,dataset,repeat,budget,selected_case_num,total_cost,total_value,budget_used,feasible,objective,execution_time,optimal,status
+sa,toy,0,100,2,100.0,160.0,100.00/100,True,-160.0,6.6954689999111,unknown,Heuristic

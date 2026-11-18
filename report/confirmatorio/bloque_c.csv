@@ -1,0 +1,9 @@
+block,problem,instance,data_dir,budget,formulation,params_from,params_seed,label
+C,tsm,tsm_aleatoria_n16_d49,report/scale_n/data/ds49,,unbalanced,report/confirmatorio/ds49/scale_tsm_aleatoria_FCI_transfer_a0.25.csv,102,F+C+I
+C,tsm,tsm_aleatoria_n16_d46,report/scale_n/data/ds46,,unbalanced,report/confirmatorio/ds46/scale_tsm_aleatoria_FCI_transfer_a0.25.csv,109,F+C+I
+C,tsm,tsm_aleatoria_n18_d45,report/scale_n/data/ds45,,unbalanced,report/confirmatorio/ds45/scale_tsm_aleatoria_FCI_transfer_a0.25.csv,102,F+C+I
+C,tsm,tsm_aleatoria_n18_d49,report/scale_n/data/ds49,,unbalanced,report/confirmatorio/ds49/scale_tsm_aleatoria_FCI_transfer_a0.25.csv,102,F+C+I
+C,tsm,tsm_aleatoria_n20_d48,report/scale_n/data/ds48,,unbalanced,report/confirmatorio/ds48/scale_tsm_aleatoria_FCI_transfer_a0.25.csv,102,F+C+I
+C,tsm,tsm_aleatoria_n20_d46,report/scale_n/data/ds46,,unbalanced,report/confirmatorio/ds46/scale_tsm_aleatoria_FCI_transfer_a0.25.csv,107,F+C+I
+C,tsm,tsm_aleatoria_n22_d49,report/scale_n/data/ds49,,unbalanced,report/confirmatorio/ds49/scale_tsm_aleatoria_FCI_transfer_a0.25.csv,102,F+C+I
+C,tsm,tsm_aleatoria_n22_d48,report/scale_n/data/ds48,,unbalanced,report/confirmatorio/ds48/scale_tsm_aleatoria_FCI_transfer_a0.25.csv,107,F+C+I

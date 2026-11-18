@@ -1,0 +1,6 @@
+block,problem,instance,data_dir,budget,formulation,params_from,params_seed,label
+B,tsm,toy,,,slack,,42,Base
+B,tsm,toy2,,,slack,,42,Base
+B,tsm,demo,,,slack,,42,Base
+B,nrp,toy,,100,slack,,42,Base
+B,nrp,demo,,60,slack,,42,Base

@@ -1,0 +1,11 @@
+Feature,Nombre,Costo,Valor
+F0,Módulo de IA Avanzado,60,100
+F1,Backend Core V2 (Óptimo A),50,80
+F2,App Móvil Nativa (Óptimo B),50,80
+F3,Panel de Analíticas,30,40
+F4,Base de Datos Analítica,10,12
+F5,Interfaz Tema Claro,20,20
+F6,Interfaz Tema Oscuro,20,18
+F7,Motor de Reportes PDF,15,15
+F8,Exportación a Excel,5,4
+F9,Animaciones de Carga (Easter Egg),5,1

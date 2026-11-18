@@ -1,0 +1,3 @@
+Origen,Relacion,Destino,Descripcion
+F3,REQUIRES,F5,F3 requiere F5
+F5,EXCLUDES,F4,F5 y F4 no pueden ir juntos

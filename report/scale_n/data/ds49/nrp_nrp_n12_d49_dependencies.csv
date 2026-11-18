@@ -1,0 +1,5 @@
+Origen,Relacion,Destino,Descripcion
+F11,REQUIRES,F3,F11 requiere F3
+F0,REQUIRES,F7,F0 requiere F7
+F11,EXCLUDES,F0,F11 y F0 no pueden ir juntos
+F6,EXCLUDES,F7,F6 y F7 no pueden ir juntos

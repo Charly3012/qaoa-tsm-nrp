@@ -1,0 +1,37 @@
+{
+  "dataset": "toy",
+  "repeat": 0,
+  "budget": 100,
+  "reps": 1,
+  "shots": 4000,
+  "final_shots": 4000,
+  "maxiter": 0,
+  "seed": 42,
+  "backend": "ibm_fez",
+  "instance": null,
+  "num_decision_vars": 10,
+  "num_qubo_vars": 15,
+  "optimizer": "fixed-random",
+  "optimizer_fun": null,
+  "best_qubo_value": 394.39999999999964,
+  "execution_time": 1.100008375942707e-06,
+  "samples_measured": 4000,
+  "qaoa_params": [
+    4.8550556515234815,
+    1.8780022528064073
+  ],
+  "trajectory": [],
+  "num_jobs": 1,
+  "total_quantum_seconds": 0.0,
+  "params_source": "simulator:results\\qaoa_sim\\toy\\0\\metadata.json",
+  "p_best": 0.001,
+  "p_feasible": 0.1545000000000001,
+  "isa_depth": 581,
+  "isa_2q_gates": 437,
+  "transpile_optimization_level": 3,
+  "dynamical_decoupling": true,
+  "selected": [
+    "F1",
+    "F2"
+  ]
+}

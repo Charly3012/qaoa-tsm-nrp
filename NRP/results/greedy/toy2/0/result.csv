@@ -1,0 +1,6 @@
+Feature,Nombre,Costo,Valor
+F2,Módulo Core Ventas,100,200
+F3,Módulo Core Inventario,100,200
+F1,Refactorizar Monolito (Deuda Técnica),150,10
+F14,App Compañera Ligera,50,90
+F0,Migración a Microservicios (Trampa),100,300

@@ -1,0 +1,2 @@
+method,dataset,repeat,budget,selected_case_num,total_cost,total_value,budget_used,feasible,objective,execution_time,optimal,status
+ilp,toy2,0,500,5,500.0,1000.0,500.00/500,True,-1000.0,0.02682859997730702,yes,Optimal

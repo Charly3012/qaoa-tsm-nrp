@@ -1,0 +1,4 @@
+Origen,Relacion,Destino,Descripcion
+F3,REQUIRES,F4,No hay Analíticas sin la Base de Datos Analítica
+F5,EXCLUDES,F6,"Solo podemos lanzar el Tema Claro O el Oscuro, no ambos"
+F8,REQUIRES,F7,Excel necesita el Motor de Reportes base

@@ -1,0 +1,39 @@
+{
+  "dataset": "demo",
+  "repeat": 0,
+  "budget": 60,
+  "reps": 1,
+  "shots": 4000,
+  "final_shots": 4000,
+  "maxiter": 0,
+  "seed": 42,
+  "backend": "ibm_fez",
+  "instance": null,
+  "num_decision_vars": 12,
+  "num_qubo_vars": 18,
+  "optimizer": "fixed-random",
+  "optimizer_fun": null,
+  "best_qubo_value": 26321.809523809527,
+  "execution_time": 1.100008375942707e-06,
+  "samples_measured": 4000,
+  "qaoa_params": [
+    5.935774493419274,
+    1.1396315951496145
+  ],
+  "trajectory": [],
+  "num_jobs": 1,
+  "total_quantum_seconds": 0.0,
+  "params_source": "simulator:results\\qaoa_sim\\demo\\0\\metadata.json",
+  "p_best": 0.00025,
+  "p_feasible": 0.02725000000000002,
+  "isa_depth": 906,
+  "isa_2q_gates": 685,
+  "transpile_optimization_level": 3,
+  "dynamical_decoupling": true,
+  "selected": [
+    "F0",
+    "F3",
+    "F4",
+    "F6"
+  ]
+}

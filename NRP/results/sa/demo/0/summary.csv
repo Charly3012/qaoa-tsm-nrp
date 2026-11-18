@@ -1,0 +1,2 @@
+method,dataset,repeat,budget,selected_case_num,total_cost,total_value,budget_used,feasible,objective,execution_time,optimal,status
+sa,demo,0,60,4,56.0,268.0,56.00/60,True,-268.0,7.875871500000358,unknown,Heuristic

@@ -1,0 +1,318 @@
+[
+  {
+    "problem": "tsm",
+    "dataset": "toy",
+    "budget": null,
+    "penalty_sim": 60.0,
+    "penalty_hw": 104.06119999999999,
+    "qubo_hw_equals_sim": false,
+    "label": "sim",
+    "n_qubo": 5,
+    "n_decision": 5,
+    "n_slack": 0,
+    "constant": 360.0,
+    "lin_min": -238.999,
+    "lin_max": -58.9995,
+    "quad_min": 60.0,
+    "quad_max": 120.0,
+    "qubo_min": 2.0015999999999963,
+    "argmin_feasible": true,
+    "argmin_orig_obj": 2.0016,
+    "brute_opt_obj": 2.0016,
+    "ilp_opt_obj": 2.0,
+    "brute_matches_ilp": false,
+    "n_opt_states": 1,
+    "n_qubo_min_states": 1,
+    "min_infeasible_qubo": 62.00150000000001,
+    "max_feasible_qubo": 5.003600000000006,
+    "penalty_dominates": true,
+    "uniform_p_opt": 0.03125,
+    "uniform_p_feas": 0.40625,
+    "uniform_energy": 92.5018,
+    "p_see_opt_8000_uniform": 1.0,
+    "param_order": [
+      "beta_0",
+      "gamma_0"
+    ],
+    "cobyla_energy": 14.91982235165548,
+    "cobyla_nfev": 28,
+    "cobyla_p_opt": 0.0049166116015878425,
+    "cobyla_p_feas": 0.9037153696275111,
+    "cobyla_x0": [
+      4.862909272689599,
+      1.378777282143998
+    ],
+    "cobyla_x": [
+      5.869266533237729,
+      2.3670504264840684
+    ],
+    "cobyla_secs": 0.13248020003084093,
+    "cobyla_p_see_opt_8000": 1.0,
+    "grid_best_energy": 92.50180000000005,
+    "grid_best_energy_at": [
+      0.0,
+      0.0
+    ],
+    "grid_best_p_opt": 0.031250000000000014,
+    "grid_best_p_opt_at": [
+      0.0,
+      0.0
+    ],
+    "grid_points": 1,
+    "grid_secs": 0.0019398999866098166
+  },
+  {
+    "problem": "tsm",
+    "dataset": "toy2",
+    "budget": null,
+    "penalty_sim": 110.0,
+    "penalty_hw": 195.1816,
+    "qubo_hw_equals_sim": false,
+    "label": "sim",
+    "n_qubo": 22,
+    "n_decision": 10,
+    "n_slack": 12,
+    "constant": 1320.0,
+    "lin_min": -988.998,
+    "lin_max": 220.0,
+    "quad_min": -220.0,
+    "quad_max": 440.0,
+    "qubo_min": 3.0044999999998936,
+    "argmin_feasible": true,
+    "argmin_orig_obj": 3.0045,
+    "brute_opt_obj": 3.0045,
+    "ilp_opt_obj": 3.0,
+    "brute_matches_ilp": false,
+    "n_opt_states": 4096,
+    "n_qubo_min_states": 1,
+    "min_infeasible_qubo": 114.00379999999996,
+    "max_feasible_qubo": 2650.0104,
+    "penalty_dominates": true,
+    "uniform_p_opt": 0.0009765625,
+    "uniform_p_feas": 0.2734375,
+    "uniform_energy": 1160.0052,
+    "p_see_opt_8000_uniform": 0.9995968964909072,
+    "param_order": [
+      "beta_0",
+      "gamma_0"
+    ],
+    "cobyla_energy": 1135.8541839032496,
+    "cobyla_nfev": 25,
+    "cobyla_p_opt": 0.0009629559743545394,
+    "cobyla_p_feas": 0.2573560502605615,
+    "cobyla_x0": [
+      4.862909272689599,
+      1.378777282143998
+    ],
+    "cobyla_x": [
+      4.862788488431746,
+      1.377403937761518
+    ],
+    "cobyla_secs": 12.713485500076786,
+    "cobyla_p_see_opt_8000": 0.9995504930823649,
+    "grid_best_energy": 1160.0051999999873,
+    "grid_best_energy_at": [
+      0.0,
+      0.0
+    ],
+    "grid_best_p_opt": 0.0009765625000000035,
+    "grid_best_p_opt_at": [
+      0.0,
+      0.0
+    ],
+    "grid_points": 1,
+    "grid_secs": 0.4164611001033336
+  },
+  {
+    "problem": "tsm",
+    "dataset": "demo",
+    "budget": null,
+    "penalty_sim": 130.0,
+    "penalty_hw": 457.5914999999999,
+    "qubo_hw_equals_sim": false,
+    "label": "sim",
+    "n_qubo": 12,
+    "n_decision": 12,
+    "n_slack": 0,
+    "constant": 1560.0,
+    "lin_min": -258.99936,
+    "lin_max": -258.99804,
+    "quad_min": 130.0,
+    "quad_max": 130.0,
+    "qubo_min": 6.007479999999816,
+    "argmin_feasible": true,
+    "argmin_orig_obj": 6.00748,
+    "brute_opt_obj": 6.00748,
+    "ilp_opt_obj": 6.0,
+    "brute_matches_ilp": false,
+    "n_opt_states": 1,
+    "n_qubo_min_states": 1,
+    "min_infeasible_qubo": 136.00673999999987,
+    "max_feasible_qubo": 12.01689999999985,
+    "penalty_dominates": true,
+    "uniform_p_opt": 0.000244140625,
+    "uniform_p_feas": 0.07861328125,
+    "uniform_energy": 396.0084499999999,
+    "p_see_opt_8000_uniform": 0.8582036573303558,
+    "param_order": [
+      "beta_0",
+      "gamma_0"
+    ],
+    "cobyla_energy": 195.75442353302066,
+    "cobyla_nfev": 29,
+    "cobyla_p_opt": 0.0009459271501910542,
+    "cobyla_p_feas": 0.4240442406128327,
+    "cobyla_x0": [
+      4.862909272689599,
+      1.378777282143998
+    ],
+    "cobyla_x": [
+      3.9741712545592667,
+      0.7485332582205363
+    ],
+    "cobyla_secs": 0.21507389994803816,
+    "cobyla_p_see_opt_8000": 0.9994848222508549,
+    "grid_best_energy": 396.00845000000015,
+    "grid_best_energy_at": [
+      0.0,
+      0.0
+    ],
+    "grid_best_p_opt": 0.0002441406250000001,
+    "grid_best_p_opt_at": [
+      0.0,
+      0.0
+    ],
+    "grid_points": 1,
+    "grid_secs": 0.006270500016398728
+  },
+  {
+    "problem": "nrp",
+    "dataset": "toy",
+    "budget": 100,
+    "penalty_sim": 11.0,
+    "penalty_hw": 27.32,
+    "qubo_hw_equals_sim": true,
+    "label": "sim",
+    "n_qubo": 15,
+    "n_decision": 10,
+    "n_slack": 5,
+    "constant": 4400.0,
+    "lin_min": -5281.0,
+    "lin_max": -429.04,
+    "quad_min": 11.0,
+    "quad_max": 2640.0,
+    "qubo_min": -1.6000000000003638,
+    "argmin_feasible": true,
+    "argmin_orig_obj": -160.0,
+    "brute_opt_obj": -160.0,
+    "ilp_opt_obj": -160.0,
+    "brute_matches_ilp": true,
+    "n_opt_states": 32,
+    "n_qubo_min_states": 1,
+    "min_infeasible_qubo": 9.389999999999418,
+    "max_feasible_qubo": 4400.0,
+    "penalty_dominates": true,
+    "uniform_p_opt": 0.0009765625,
+    "uniform_p_feas": 0.150390625,
+    "uniform_energy": 4477.9,
+    "p_see_opt_8000_uniform": 0.9995968964909072,
+    "param_order": [
+      "beta_0",
+      "gamma_0"
+    ],
+    "cobyla_energy": 2229.842388432182,
+    "cobyla_nfev": 31,
+    "cobyla_p_opt": 0.0003149540835591507,
+    "cobyla_p_feas": 0.18837927316668618,
+    "cobyla_x0": [
+      4.862909272689599,
+      1.378777282143998
+    ],
+    "cobyla_x": [
+      4.8550556515234815,
+      1.8780022528064073
+    ],
+    "cobyla_secs": 0.873107299907133,
+    "cobyla_p_see_opt_8000": 0.9195427696787487,
+    "grid_best_energy": 4477.9000000000015,
+    "grid_best_energy_at": [
+      0.0,
+      0.0
+    ],
+    "grid_best_p_opt": 0.0009765625000000004,
+    "grid_best_p_opt_at": [
+      0.0,
+      0.0
+    ],
+    "grid_points": 1,
+    "grid_secs": 0.025399500038474798
+  },
+  {
+    "problem": "nrp",
+    "dataset": "toy2",
+    "n_qubo": 37,
+    "skipped": true
+  },
+  {
+    "problem": "nrp",
+    "dataset": "demo",
+    "budget": 60,
+    "penalty_sim": 13.0,
+    "penalty_hw": 34.88095238095238,
+    "qubo_hw_equals_sim": true,
+    "label": "sim",
+    "n_qubo": 18,
+    "n_decision": 12,
+    "n_slack": 6,
+    "constant": 46800.0,
+    "lin_min": -60841.0,
+    "lin_max": -1560.0,
+    "quad_min": 13.0,
+    "quad_max": 35490.0,
+    "qubo_min": -3.1904761904734187,
+    "argmin_feasible": true,
+    "argmin_orig_obj": -268.0,
+    "brute_opt_obj": -268.0,
+    "ilp_opt_obj": -268.0,
+    "brute_matches_ilp": true,
+    "n_opt_states": 64,
+    "n_qubo_min_states": 1,
+    "min_infeasible_qubo": 9.357142857144936,
+    "max_feasible_qubo": 46800.0,
+    "penalty_dominates": true,
+    "uniform_p_opt": 0.000244140625,
+    "uniform_p_feas": 0.03173828125,
+    "uniform_energy": 157913.5238095238,
+    "p_see_opt_8000_uniform": 0.8582036573303558,
+    "param_order": [
+      "beta_0",
+      "gamma_0"
+    ],
+    "cobyla_energy": 139349.41419472545,
+    "cobyla_nfev": 30,
+    "cobyla_p_opt": 0.00016980088680843605,
+    "cobyla_p_feas": 0.044568456421734404,
+    "cobyla_x0": [
+      4.862909272689599,
+      1.378777282143998
+    ],
+    "cobyla_x": [
+      5.935774493419274,
+      1.1396315951496145
+    ],
+    "cobyla_secs": 1.8923745000502095,
+    "cobyla_p_see_opt_8000": 0.7429597102423313,
+    "grid_best_energy": 157913.52380952382,
+    "grid_best_energy_at": [
+      0.0,
+      0.0
+    ],
+    "grid_best_p_opt": 0.00024414062500000005,
+    "grid_best_p_opt_at": [
+      0.0,
+      0.0
+    ],
+    "grid_points": 1,
+    "grid_secs": 0.06066760001704097
+  }
+]

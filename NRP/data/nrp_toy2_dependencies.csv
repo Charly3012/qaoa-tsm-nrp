@@ -1,0 +1,7 @@
+Origen,Relacion,Destino,Descripcion
+F0,REQUIRES,F1,F0 requiere pagar la deuda técnica de F1 primero
+F7,EXCLUDES,F8,No hay tiempo/arquitectura para Stripe y PayPal simultáneos
+F10,REQUIRES,F9,Dash 2 requiere Dash 1
+F11,REQUIRES,F10,Dash 3 requiere Dash 2
+F12,REQUIRES,F11,Export requiere Dash 3
+F13,REQUIRES,F12,Alertas requieren Export

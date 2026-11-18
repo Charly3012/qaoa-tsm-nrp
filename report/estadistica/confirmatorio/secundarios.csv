@@ -1,0 +1,6 @@
+analisis,n,prueba,estadistico,p,efecto
+"TSM aleatoria vs NRP (log A, F+C+I, N 8-20)",35 / 35,Mann-Whitney U (TSM > NRP),1225.0,3.2727502944570765e-13,A12 = 1.00
+Exito frente al azar en nrp (F+C+I),35,McNemar exacto,0.0,1.0,"b = 0 (QAOA si, azar no), c = 0; QAOA 15/35, azar 15/35"
+Exito frente al azar en tsm_ciclo (F+C+I),40,McNemar exacto,15.0,3.0517578125e-05,"b = 15 (QAOA si, azar no), c = 0; QAOA 35/40, azar 20/40"
+Sin holguras vs con holguras en N = 4 y 6 (TSM aleatoria),10,Wilcoxon pareado (F vs Base),41.0,0.0966796875,FS = 0.60; mediana de la razon de A = 1.64
+Nivel de A: F+C+I vs F+C (TSM aleatoria),40,Wilcoxon pareado,799.0,4.065441316924989e-10,FS = 0.95; mediana de la razon de A = 1.16

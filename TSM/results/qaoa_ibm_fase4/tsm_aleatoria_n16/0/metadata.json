@@ -1,0 +1,58 @@
+{
+  "dataset": "tsm_aleatoria_n16",
+  "repeat": 0,
+  "reps": 1,
+  "shots": 4000,
+  "final_shots": 4000,
+  "maxiter": 0,
+  "seed": 42,
+  "penalty": null,
+  "formulation": "unbalanced",
+  "lambda1": 1.0,
+  "lambda2": 1.0,
+  "data_dir": "report/scale_n/data",
+  "optimum_tests": 4,
+  "optimal": "yes",
+  "p_opt_sampled": 0.00125,
+  "sim_reference": {
+    "p_opt": 0.0033398050334356,
+    "p_feasible": 0.335476615405925,
+    "p_best": 0.000875,
+    "metric": 4.0,
+    "optimum": 4.0,
+    "energy": 7.145828582894516,
+    "config": "FCI"
+  },
+  "backend": "ibm_marrakesh",
+  "instance": null,
+  "num_decision_vars": 16,
+  "num_qubo_vars": 16,
+  "optimizer": "fixed-random",
+  "optimizer_fun": null,
+  "best_qubo_value": 4.004459999999998,
+  "execution_time": 1.0999992809956893e-06,
+  "samples_measured": 4000,
+  "qaoa_params": [
+    5.924451,
+    0.377202
+  ],
+  "trajectory": [],
+  "num_jobs": 1,
+  "job_ids": [
+    "dbmp47m74qds73dsosng"
+  ],
+  "total_quantum_seconds": 0.0,
+  "params_source": "transfer:report/fase4/scale_tsm_aleatoria_FCI_transfer_a0.25.csv:seed42",
+  "p_best": 0.00025,
+  "p_feasible": 0.29949999999999494,
+  "isa_depth": 202,
+  "isa_2q_gates": 176,
+  "transpile_optimization_level": 3,
+  "dynamical_decoupling": true,
+  "selected": [
+    "T0",
+    "T5",
+    "T6",
+    "T11"
+  ]
+}

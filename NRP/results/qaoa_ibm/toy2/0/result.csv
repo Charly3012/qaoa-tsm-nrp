@@ -1,0 +1,14 @@
+Feature,Nombre,Costo,Valor
+F2,Módulo Core Ventas,100,200
+F3,Módulo Core Inventario,100,200
+F4,Módulo Core Logística,100,200
+F9,Dashboard Nivel 1,20,30
+F10,Dashboard Nivel 2,20,30
+F11,Dashboard Nivel 3,20,30
+F12,Exportación Analítica,20,30
+F13,Alertas Automáticas,20,30
+F16,Mejora Menor de UI 16,15,14
+F17,Mejora Menor de UI 17,20,18
+F21,Mejora Menor de UI 21,15,14
+F23,Mejora Menor de UI 23,25,22
+F26,Mejora Menor de UI 26,15,14

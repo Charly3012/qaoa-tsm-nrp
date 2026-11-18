@@ -1,0 +1,12 @@
+method,dataset,repeat,budget,selected_case_num,total_cost,total_value,budget_used,feasible,objective,execution_time,optimal,status
+ilp,toy,0,100,2,100.0,160.0,100.00/100,True,-160.0,0.0311893000034615,yes,Optimal
+greedy,toy,0,100,3,100.0,152.0,100.00/100,True,-152.0,0.0003115000436082,unknown,
+sa,toy,0,100,2,100.0,160.0,100.00/100,True,-160.0,6.6954689999111,unknown,Heuristic
+qaoa_sim,toy,0,100,2,100.0,160.0,100.00/100,True,-160.0,0.8309879000298679,yes,
+ilp,toy2,0,500,5,500.0,1000.0,500.00/500,True,-1000.0,0.026828599977307,yes,Optimal
+greedy,toy2,0,500,5,500.0,800.0,500.00/500,True,-800.0,0.0003502999898046,unknown,
+sa,toy2,0,500,9,500.0,914.0,500.00/500,True,-914.0,19.91122919996269,unknown,Heuristic
+ilp,demo,0,60,4,56.0,268.0,56.00/60,True,-268.0,0.0322744000004604,yes,Optimal
+greedy,demo,0,60,4,53.0,230.0,53.00/60,True,-230.0,0.0007180999964475,unknown,
+sa,demo,0,60,4,56.0,268.0,56.00/60,True,-268.0,7.875871500000358,unknown,Heuristic
+qaoa_sim,demo,0,60,4,56.0,268.0,56.00/60,True,-268.0,1.6627143999794498,yes,

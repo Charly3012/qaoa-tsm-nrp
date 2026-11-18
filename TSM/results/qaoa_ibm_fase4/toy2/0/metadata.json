@@ -1,0 +1,49 @@
+{
+  "dataset": "toy2",
+  "repeat": 0,
+  "reps": 1,
+  "shots": 4000,
+  "final_shots": 4000,
+  "maxiter": 0,
+  "seed": 42,
+  "penalty": null,
+  "formulation": "unbalanced",
+  "lambda1": 1.0,
+  "lambda2": 1.0,
+  "data_dir": null,
+  "optimum_tests": 3,
+  "optimal": "yes",
+  "p_opt_sampled": 0.00825,
+  "sim_reference": {},
+  "backend": "ibm_marrakesh",
+  "instance": null,
+  "num_decision_vars": 10,
+  "num_qubo_vars": 10,
+  "optimizer": "fixed-random",
+  "optimizer_fun": null,
+  "best_qubo_value": 3.0045,
+  "execution_time": 6.999998731771484e-07,
+  "samples_measured": 4000,
+  "qaoa_params": [
+    3.6357710821155864,
+    0.420949742884063
+  ],
+  "trajectory": [],
+  "num_jobs": 1,
+  "job_ids": [
+    "dbmoqpm74qds73dso7sg"
+  ],
+  "total_quantum_seconds": 0.0,
+  "params_source": "transfer:TSM/results/qaoa_sim_fase4/toy2/0/metadata.json:seed42",
+  "p_best": 0.00825,
+  "p_feasible": 0.41424999999999784,
+  "isa_depth": 92,
+  "isa_2q_gates": 53,
+  "transpile_optimization_level": 3,
+  "dynamical_decoupling": true,
+  "selected": [
+    "T1",
+    "T2",
+    "T3"
+  ]
+}

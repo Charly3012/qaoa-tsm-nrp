@@ -1,0 +1,28 @@
+# scripts/diag_landscape.py compare --n 14   (lambdas congelados: TSM 1/1, NRP 0.1/0.01; QAOA p=1 malla 36x18 + COBYLA, CVaR 0.25) · 2026-10-31
+
+tsm_aleatoria N=14: opt_states=8 rank_opt=0 argmin_feas=True
+  coef: lin[-11.0,1.0] quad[2.00,8.00] densidad quad=0.35  |obj coef| max=1.00
+  espectro: rango=38.0  gap1=0.000
+  masa QAOA en   1 menores energias: 1.200e-03  (uniforme 6.1e-05, x19.7)
+  masa QAOA en  10 menores energias: 1.193e-02  (uniforme 6.1e-04, x19.5)
+  masa QAOA en  50 menores energias: 4.054e-02  (uniforme 3.1e-03, x13.3)
+  masa QAOA en 500 menores energias: 2.311e-01  (uniforme 3.1e-02, x7.6)
+  p_opt=1.03e-02 A=21.1  p_feas=0.412 (unif 0.356)  gamma,beta=[3.46827085 0.37254205]
+
+tsm_ciclo N=14: opt_states=2 rank_opt=0 argmin_feas=True
+  coef: lin[-3.0,-3.0] quad[2.00,2.00] densidad quad=0.15  |obj coef| max=1.00
+  espectro: rango=21.0  gap1=0.002
+  masa QAOA en   1 menores energias: 1.967e-03  (uniforme 6.1e-05, x32.2)
+  masa QAOA en  10 menores energias: 1.794e-02  (uniforme 6.1e-04, x29.4)
+  masa QAOA en  50 menores energias: 9.063e-02  (uniforme 3.1e-03, x29.7)
+  masa QAOA en 500 menores energias: 3.798e-01  (uniforme 3.1e-02, x12.4)
+  p_opt=3.93e-03 A=32.2  p_feas=0.564 (unif 0.051)  gamma,beta=[3.78409872 0.38854468]
+
+nrp N=14: opt_states=1 rank_opt=12 argmin_feas=False
+  coef: lin[-82.2,-19.7] quad[1.28,27.30] densidad quad=1.00  |obj coef| max=1.00
+  espectro: rango=388.5  gap1=0.066
+  masa QAOA en   1 menores energias: 3.618e-04  (uniforme 6.1e-05, x5.9)
+  masa QAOA en  10 menores energias: 4.041e-03  (uniforme 6.1e-04, x6.6)
+  masa QAOA en  50 menores energias: 1.761e-02  (uniforme 3.1e-03, x5.8)
+  masa QAOA en 500 menores energias: 1.142e-01  (uniforme 3.1e-02, x3.7)
+  p_opt=2.10e-04 A=3.4  p_feas=0.153 (unif 0.118)  gamma,beta=[0.15178171 1.28278711]

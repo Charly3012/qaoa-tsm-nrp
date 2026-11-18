@@ -1,0 +1,17 @@
+# Credenciales locales
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.venv-bootstrap/
+
+# Salidas de pruebas rápidas (no forman parte de los resultados)
+report/scale_n/smoke/
+
+# Registros y marcadores de ejecución del lote confirmatorio
+report/confirmatorio/logs/
+*.log

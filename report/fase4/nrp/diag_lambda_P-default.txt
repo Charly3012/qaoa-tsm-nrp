@@ -1,0 +1,23 @@
+# scripts/diag_landscape.py lambda --sizes 10,14,18   (P = lambda1 + lambda2, como en las corridas) · 2026-10-30
+penalty_logic = None
+
+=== nrp_n10 N=10 B=80 opt=363.0 n_opt=1 p_opt_u=9.77e-04 p_feas_u=0.188
+  l=( 0.1,0.01) coefmax=  41.0 rank_opt=   0 argmin_feas=True  cost_am=76/80 feas_top50=0.64 | p_opt=2.41e-03 A=  2.47 p_argmin=2.41e-03 (x   2.5) p_feas=0.270 p_top50=0.123 maxprob: rank=111 feas=False
+  l=( 0.5,0.05) coefmax= 201.5 rank_opt=   0 argmin_feas=True  cost_am=76/80 feas_top50=0.72 | p_opt=6.65e-04 A=  0.68 p_argmin=6.65e-04 (x   0.7) p_feas=0.238 p_top50=0.078 maxprob: rank=999 feas=False
+  l=( 1.0, 0.1) coefmax= 402.2 rank_opt=   0 argmin_feas=True  cost_am=76/80 feas_top50=0.74 | p_opt=4.27e-04 A=  0.44 p_argmin=4.27e-04 (x   0.4) p_feas=0.226 p_top50=0.055 maxprob: rank=582 feas=True
+  l=( 1.0, 1.0) coefmax=4338.8 rank_opt=  49 argmin_feas=True  cost_am=80/80 feas_top50=0.28 | p_opt=2.95e-02 A= 30.17 p_argmin=2.05e-04 (x   0.2) p_feas=0.210 p_top50=0.060 maxprob: rank=315 feas=False
+  l=( 2.0, 2.0) coefmax=8676.8 rank_opt=  49 argmin_feas=True  cost_am=80/80 feas_top50=0.28 | p_opt=4.21e-04 A=  0.43 p_argmin=4.90e-05 (x   0.1) p_feas=0.304 p_top50=0.112 maxprob: rank=483 feas=False
+
+=== nrp_n14 N=14 B=129 opt=450.0 n_opt=1 p_opt_u=6.10e-05 p_feas_u=0.118
+  l=( 0.1,0.01) coefmax=  82.2 rank_opt=  12 argmin_feas=False cost_am=125/129 feas_top50=0.42 | p_opt=2.10e-04 A=  3.44 p_argmin=3.62e-04 (x   5.9) p_feas=0.153 p_top50=0.018 maxprob: rank=16200 feas=False
+  l=( 0.5,0.05) coefmax= 408.3 rank_opt=  83 argmin_feas=True  cost_am=122/129 feas_top50=0.76 | p_opt=6.50e-05 A=  1.07 p_argmin=1.02e-04 (x   1.7) p_feas=0.132 p_top50=0.009 maxprob: rank=11340 feas=False
+  l=( 1.0, 0.1) coefmax= 815.8 rank_opt= 298 argmin_feas=True  cost_am=122/129 feas_top50=0.96 | p_opt=5.31e-05 A=  0.87 p_argmin=1.27e-03 (x  20.8) p_feas=0.166 p_top50=0.006 maxprob: rank=3079 feas=True
+  l=( 1.0, 1.0) coefmax=8502.7 rank_opt=   0 argmin_feas=True  cost_am=129/129 feas_top50=1.00 | p_opt=2.25e-06 A=  0.04 p_argmin=2.25e-06 (x   0.0) p_feas=0.211 p_top50=0.003 maxprob: rank=5301 feas=False
+  l=( 2.0, 2.0) coefmax=17004.7 rank_opt=   0 argmin_feas=True  cost_am=129/129 feas_top50=1.00 | p_opt=8.46e-11 A=  0.00 p_argmin=8.46e-11 (x   0.0) p_feas=0.214 p_top50=0.000 maxprob: rank=6753 feas=False
+
+=== nrp_n18 N=18 B=166 opt=557.0 n_opt=1 p_opt_u=3.81e-06 p_feas_u=0.058
+  l=( 0.1,0.01) coefmax= 110.9 rank_opt=   1 argmin_feas=False cost_am=165/166 feas_top50=0.18 | p_opt=2.52e-06 A=  0.66 p_argmin=4.47e-06 (x   1.2) p_feas=0.091 p_top50=0.000 maxprob: rank=260794 feas=False
+  l=( 0.5,0.05) coefmax= 552.4 rank_opt=   0 argmin_feas=True  cost_am=162/166 feas_top50=0.70 | p_opt=1.15e-06 A=  0.30 p_argmin=1.15e-06 (x   0.3) p_feas=0.077 p_top50=0.001 maxprob: rank=24888 feas=True
+  l=( 1.0, 0.1) coefmax=1104.2 rank_opt=   0 argmin_feas=True  cost_am=162/166 feas_top50=1.00 | p_opt=4.04e-06 A=  1.06 p_argmin=4.04e-06 (x   1.1) p_feas=0.115 p_top50=0.001 maxprob: rank=175936 feas=False
+  l=( 1.0, 1.0) coefmax=11388.5 rank_opt=7805 argmin_feas=True  cost_am=165/166 feas_top50=1.00 | p_opt=9.11e-06 A=  2.39 p_argmin=5.44e-06 (x   1.4) p_feas=0.059 p_top50=0.001 maxprob: rank=43025 feas=True
+  l=( 2.0, 2.0) coefmax=22776.5 rank_opt=8229 argmin_feas=True  cost_am=165/166 feas_top50=1.00 | p_opt=3.33e-04 A= 87.35 p_argmin=6.22e-03 (x1631.7) p_feas=0.213 p_top50=0.008 maxprob: rank=146940 feas=True

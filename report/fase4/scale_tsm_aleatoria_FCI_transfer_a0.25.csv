@@ -1,0 +1,111 @@
+family,problem,n,instance,budget,n_decision,n_qubo,n_slack,optimum,config,lambda1,lambda2,objective,alpha,init,reps,method,seed,metric,optimal,feasible,p_best,p_opt,p_feasible,p_see_opt,n_opt_states,energy,nfev,secs,secs_opt,params
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,1,1,1,,,,,,,,0.02912609999475535,,
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,1,1,1,,,,,,,,0.0005857999931322411,,
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,1,1,1,,,,,,,,3.429225999992923,,
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,0.0625,0.75,1.0,1,,,0.0,,
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,1,1,1,,,,,,,,0.016504999992321245,,
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,1,1,1,,,,,,,,0.016646400006720796,,
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,1,1,1,,,,,,,,0.018868499988457188,,
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,1,1,1,0.223,0.22590381122263567,0.8067101320567447,,,1.0979802651642299,35,0.23573749999923166,0.18408750000526197,4.156484 0.396111
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,1,1,1,0.1925,0.19517163674849272,0.8054392519356169,,,1.2210806867414825,31,0.15603290000581183,0.13345900000422262,5.034716 1.239268
+tsm_aleatoria,tsm,4,tsm_aleatoria_n04,,4,4,0,1,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,1,1,1,0.181,0.18600398171133692,0.6549945664591245,,,1.257818907811757,36,0.16977169999154285,0.13732229999732226,0.626224 0.938156
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,2,1,1,,,,,,,,0.03335009999864269,,
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,2,1,1,,,,,,,,0.0009622999932616949,,
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,2,1,1,,,,,,,,3.97473319999699,,
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,0.0625,0.640625,1.0,4,,,0.0,,
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,2,1,1,,,,,,,,0.0745980000065174,,
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,2,1,1,,,,,,,,0.07492450000427198,,
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,2,1,1,,,,,,,,0.07199940001009963,,
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,2,1,1,0.027125,0.1104656942078754,0.6757587337474288,,,2.561376273097289,38,0.3088255000038771,0.22871940000914037,5.383018 1.347655
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,2,1,1,0.0275,0.11094682511481517,0.6759938568463805,,,2.5594383900622164,48,0.38814949998049997,0.3018073999992339,5.386164 1.364135
+tsm_aleatoria,tsm,6,tsm_aleatoria_n06,,6,6,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,2,1,1,0.065125,0.24999802229349005,0.6874990040471121,,,2.0024191980504513,34,0.25737190000654664,0.21685910000815056,1.570509 0.785300
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,2,1,1,,,,,,,,0.039131300000008196,,
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,2,1,1,,,,,,,,0.001048700010869652,,
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,2,1,1,,,,,,,,4.787193700001808,,
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,0.00390625,0.5390625,0.9999999999999748,1,,,0.0,,
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,2,1,1,,,,,,,,0.314789700001711,,
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,2,1,1,,,,,,,,0.29961510001157876,,
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,2,1,1,,,,,,,,0.30891669999982696,,
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,2,1,1,0.00475,0.0038600337892719288,0.7594766130581343,,,3.6994057550924793,44,0.6329244999797083,0.32695759998750873,6.428541 1.292899
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,2,1,1,0.00475,0.0038586806547710717,0.7595542238005832,,,3.6994057647487386,44,0.6266289000050165,0.33041950000915676,6.428634 1.292976
+tsm_aleatoria,tsm,8,tsm_aleatoria_n08,,8,8,0,2,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,2,1,1,0.03,0.03158080356281295,0.5597840244156882,,,3.886151544707699,41,0.6218601999862585,0.32199349999427795,1.349388 1.894264
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,3,1,1,,,,,,,,0.03831160000117961,,
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,4,0,1,,,,,,,,0.0013877000019419938,,
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,3,1,1,,,,,,,,4.3910759999998845,,
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,0.0029296875,0.4677734375,0.9999999999359848,3,,,0.0,,
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,3,1,1,,,,,,,,0.828536000000895,,
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,3,1,1,,,,,,,,0.784440600007656,,
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,3,1,1,,,,,,,,0.9153405999968527,,
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,3,1,1,0.012,0.03365710284764544,0.5775078948071144,,,4.012256081518994,35,0.9246539000014309,0.22895129999960773,5.912724 0.356123
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,3,1,1,0.012125,0.03364340824599672,0.577492301855593,,,4.012255700416006,37,1.0430428000108805,0.26686119999794755,5.912923 0.356102
+tsm_aleatoria,tsm,10,tsm_aleatoria_n10,,10,10,0,3,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,3,1,1,0.012125,0.033873170993031484,0.5757752718044649,,,4.0098572145946925,32,0.9626518999866676,0.23037579999072477,2.771760 2.785497
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,4,1,1,,,,,,,,0.037247500004014,,
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,4,1,1,,,,,,,,0.0011951000051340088,,
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,4,1,1,,,,,,,,3.519286700000521,,
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,0.002197265625,0.36181640625,0.9999999772218762,9,,,0.0,,
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,4,1,1,,,,,,,,2.9265722000127425,,
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,4,1,1,,,,,,,,3.115682100004051,,
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,4,1,1,,,,,,,,3.008986000000732,,
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,4,1,1,0.003625,0.029228070336182847,0.3650504667704893,,,5.439643784328777,29,2.118941300010192,0.3220294000057038,5.897615 0.362637
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,4,1,1,0.003625,0.02922839576424674,0.3650485841631811,,,5.439643763833645,33,2.1979931999958353,0.36404279999260325,5.897577 0.362602
+tsm_aleatoria,tsm,12,tsm_aleatoria_n12,,12,12,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,4,1,1,0.00425,0.029275482626057604,0.36276438330983385,,,5.439394582492983,30,2.1015501000074437,0.3115334000030998,2.756293 2.779177
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,4,1,1,,,,,,,,0.03468789999897126,,
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,4,1,1,,,,,,,,0.0017088000022340566,,
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,4,1,1,,,,,,,,3.5353868000092916,,
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,0.00048828125,0.35595703125,0.9799033869857761,8,,,0.0,,
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,4,1,1,,,,,,,,6.2529106000001775,,
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,4,1,1,,,,,,,,6.611330400002771,,
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,4,1,1,,,,,,,,7.65279069999815,,
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,4,1,1,0.00125,0.010033605522978668,0.4184305650742468,,,6.082486991515677,32,6.047883699997328,0.8442226000042865,5.955230 0.372337
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,4,1,1,0.00125,0.010034997685843452,0.4184311338583239,,,6.082486987852468,31,6.06568289999268,0.7746680999989621,5.955165 0.372347
+tsm_aleatoria,tsm,14,tsm_aleatoria_n14,,14,14,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,4,1,1,0.001,0.010128391358973879,0.41630469862945424,,,6.079207734167405,38,5.8455573999963235,0.9296484000078635,2.814081 2.769188
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,4,1,1,,,,,,,,0.04405519999272656,,
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,4,1,1,,,,,,,,0.0011926000006496906,,
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,4,1,1,,,,,,,,4.64898820000235,,
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,4.57763671875e-05,0.2884368896484375,0.3066492809101953,3,,,0.0,,
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,5,0,1,,,,,,,,9.322191699990071,,
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,5,0,1,,,,,,,,9.526131799997529,,
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,5,0,1,,,,,,,,7.983179299990297,,
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,4,1,1,0.000875,0.003339805033435678,0.335476615405925,,,7.145828582894516,32,7.612994999988587,0.6150734999973793,5.924451 0.377202
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,4,1,1,0.000625,0.003340849718296828,0.33534724611923805,,,7.145924305915481,43,7.17342340000323,0.9155678000097396,5.926794 0.379196
+tsm_aleatoria,tsm,16,tsm_aleatoria_n16,,16,16,0,4,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,4,1,1,0.000875,0.0033931971816114946,0.3330489376421457,,,7.144198818725519,39,6.430191899984493,0.7627248999924632,2.785004 2.762095
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,5,1,1,,,,,,,,0.04821480000100564,,
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,6,0,1,,,,,,,,0.0024985000054584816,,
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,5,1,1,,,,,,,,4.834536100010155,,
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,3.814697265625e-06,0.22069931030273438,0.030056674326933486,1,,,0.0,,
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,6,0,1,,,,,,,,8.812584800005425,,
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,6,0,1,,,,,,,,10.327811800001655,,
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,7,0,1,,,,,,,,8.36999680000008,,
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,5,1,1,0.00025,0.00035070702613883205,0.2650300585407005,,,8.433455445342226,37,11.942379899992375,2.385695399992983,5.892288 0.368138
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,5,1,1,0.00025,0.00035065369758956964,0.2650228087726798,,,8.433455505571711,33,10.622715299978154,1.647506399996928,5.892303 0.368111
+tsm_aleatoria,tsm,18,tsm_aleatoria_n18,,18,18,0,5,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,5,1,1,0.00025,0.00035436524529709035,0.26306918194300044,,,8.43183631165709,34,10.609488899994176,1.8758678000012878,2.751077 2.773458
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,6,1,1,,,,,,,,0.041246499997214414,,
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,6,1,1,,,,,,,,0.003195500001311302,,
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,6,1,1,,,,,,,,4.69351430000097,,
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,1.33514404296875e-05,0.19785308837890625,0.10130560083362183,14,,,0.0,,
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,8,0,1,,,,,,,,11.790434100010316,,
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,7,0,1,,,,,,,,14.531245300007868,,
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,7,0,1,,,,,,,,11.35663380000915,,
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,6,1,1,0.000125,0.0011410958962850385,0.2204088748538422,,,9.743231700911535,32,18.004589399992255,4.696110999997472,5.900089 0.372058
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,6,1,1,0.000125,0.0011411699078541103,0.22041459407715325,,,9.743231736132692,37,19.07568190000893,6.740013300004648,5.900063 0.372072
+tsm_aleatoria,tsm,20,tsm_aleatoria_n20,,20,20,0,6,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,6,1,1,0.000125,0.0011482218343084928,0.21855901132918837,,,9.741671544592114,31,17.678640400015865,4.376265800005058,2.758914 2.769596
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,7,1,1,,,,,,,,0.07787910000479314,,
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,7,1,1,,,,,,,,0.0031715999939478934,,
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,7,1,1,,,,,,,,5.879480399991735,,
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,7.867813110351562e-06,0.16278457641601562,0.06100277260014597,33,,,0.0,,
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,8,0,1,,,,,,,,12.241999199992279,,
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,9,0,1,,,,,,,,12.165667699999176,,
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,8,0,1,,,,,,,,11.501475299999584,,
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,7,1,1,0.00025,0.000921650897696052,0.1788237082116317,,,10.931571921635834,33,35.755224599997746,19.055855999991763,5.885870 0.376302
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,7,1,1,0.00025,0.000921757452497512,0.17883489358159815,,,10.931571947949521,35,39.48141379999288,20.335827699993388,5.885834 0.376327
+tsm_aleatoria,tsm,22,tsm_aleatoria_n22,,22,22,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,7,1,1,0.000125,0.0009270064885174015,0.1773647383768126,,,10.930080974124325,29,34.46769600000698,17.46965129999444,2.744526 2.765252
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,ilp,42,7,1,1,,,,,,,,0.10740809999697376,,
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,greedy,42,8,0,1,,,,,,,,0.0034349000052316114,,
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,sa,42,7,1,1,,,,,,,,5.359802899998613,,
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,uniforme,,,,,,5.960464477539063e-08,0.13755249977111816,0.00047672350363736626,1,,,0.0,,
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,42,9,0,1,,,,,,,,12.752201299997978,,
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,43,9,0,1,,,,,,,,11.379673999996157,,
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,aleatorio,44,10,0,1,,,,,,,,11.645010499996715,,
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,42,8,0,1,0.00025,2.2253877454997877e-05,0.16621411291676996,,,11.794077780827884,29,95.87712399999145,60.135926600007224,5.891653 0.372818
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,43,8,0,1,0.00025,2.2257843432808564e-05,0.16621445092273973,,,11.79407771443696,33,104.75835589999042,71.14936599999783,5.891605 0.372810
+tsm_aleatoria,tsm,24,tsm_aleatoria_n24,,24,24,0,7,FCI,1.0,1.0,cvar,0.25,transfer,1,qaoa,44,7,1,1,0.000125,2.2527524823003462e-05,0.16445675564114917,,,11.794019008205982,32,86.39617019999423,52.71387629999663,2.750373 2.768851

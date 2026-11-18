@@ -1,0 +1,7 @@
+hipotesis,pi,familia,n,prueba,estadistico,p,p_holm,efecto,efecto_valor,umbral_efecto,decision
+H1,PI3,tsm_aleatoria,8,Wilcoxon 1 muestra (>0),35.0,0.0078125,0.046875,"mediana A = 38.7 [IC95 11.5, 91.9]; signos 7/8 (p = 0.0352)",38.728566520416194,,Rechaza H0
+H2,PI3,tsm_aleatoria,8,Wilcoxon pareado (F+C vs F),30.0,0.0546875,0.21875,FS = 0.88; mediana de la razon de A = 2.29,0.875,0.64,No rechaza H0
+H3,PI3,tsm_aleatoria,8,Wilcoxon pareado (RIC F+C+I < RIC F+C),4.0,0.02734375,0.13671875,FS = 0.88; mediana de RIC: 0.00176 (F+C+I) frente a 0.453 (F+C),0.875,,No rechaza H0
+H4,PI1,tsm_aleatoria,8,McNemar exacto,4.0,0.0625,0.21875,"b = 4 (QAOA si, azar no), c = 0; QAOA 8/8, azar 4/8",4.0,,No rechaza H0
+H6,PI3,nrp,7,Wilcoxon 1 muestra (>0),14.0,0.53125,1.0,"mediana A = 1.07 [IC95 0.462, 1.48]; signos 4/7 (p = 0.5)",1.0678741864863122,,No rechaza H0
+H7,PI3,tsm_aleatoria,1,Wilcoxon pareado (F vs Base),1.0,0.5,1.0,FS = 1.00; mediana de la razon de A = 696,1.0,0.64,No rechaza H0

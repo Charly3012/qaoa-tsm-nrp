@@ -1,0 +1,7 @@
+problem,dataset,config,alpha,seed,reps,starts,metric,optimal_metric,optimal,feasible,wall_s,optimizer_fun,num_qubo_vars,p_best,p_feasible
+nrp,toy,base,,42,1,1,160.0,160.0,yes,True,10.2,2229.8,15,0.00025,0.1879
+nrp,toy,base,,43,1,1,160.0,160.0,yes,True,3.8,3811.7,15,0.006375,0.0845
+nrp,toy,base,,44,1,1,160.0,160.0,yes,True,7.6,3903.0,15,0.0005,0.172
+nrp,demo,base,,42,1,1,268.0,268.0,yes,True,8.5,139349.4,18,0.000125,0.04
+nrp,demo,base,,43,1,1,268.0,268.0,yes,True,8.1,139038.6,18,0.0005,0.0453
+nrp,demo,base,,44,1,1,268.0,268.0,yes,True,7.8,157371.4,18,0.000125,0.0291
