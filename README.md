@@ -162,3 +162,7 @@ python -m pytest
 
 En ambos casos, la factibilidad de la solución final se valida contra el modelo original
 (cobertura, presupuesto y dependencias), no contra la energía del QUBO.
+
+## Licencia
+
+Distribuido bajo la licencia MIT. Consulte el archivo [LICENSE](LICENSE).
