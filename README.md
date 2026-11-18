@@ -51,7 +51,7 @@ métodos clásicos.
 |---|---|---|---|
 | E1. Verificación y referencia | Fase 1 | Instancias de referencia con la codificación con holguras, en simulador y en `ibm_fez` | `TSM/results/`, `NRP/results/`, `report/audit/` |
 | E2. Escalamiento | Fase 2 | Familias sintéticas de tamaño creciente, codificación con holguras | `report/scale_n/` |
-| E3. Codificación y optimización | Fase 4 | Codificación sin holguras, CVaR e inicialización por malla y por transferencia; 7 trabajos en `ibm_fez` | `report/fase4/`, `TSM/results/qaoa_*_fase4/` |
+| E3. Codificación y optimización | Fase 4 | Codificación sin holguras, CVaR e inicialización por malla y por transferencia; 7 trabajos en `ibm_marrakesh` | `report/fase4/`, `TSM/results/qaoa_*_fase4/` |
 | E4. Confirmación | Ronda confirmatoria | Instancias nuevas (semillas de datos 45–59), 10 semillas del optimizador, configuraciones Base, F, F+C y F+C+I; réplicas en `ibm_marrakesh` | `report/confirmatorio/`, `report/estadistica/confirmatorio/` |
 
 Los comentarios del código conservan la numeración interna por fases y algunas notas del proceso de
